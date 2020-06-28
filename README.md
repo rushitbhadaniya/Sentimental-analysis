@@ -11,3 +11,9 @@ Download the R script and run it in your R Studio. Select the text file which yo
 ## Output
 In a result you will get Wordcloud of your text and sentiment score for each sentiments.
 Here, I have used this sentimental analysis on Amazon echo's customers reviews.  
+### Wordcloud
+<img src="https://github.com/rushitbhadaniya/Sentimental-analysis/blob/master/Amazon_echo_reviews_wordcloud.png">
+
+### Sentiment Score
+<img src="https://github.com/rushitbhadaniya/Sentimental-analysis/blob/master/Amazon_echo_reviews_sentiment.png">
+
