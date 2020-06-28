@@ -8,3 +8,6 @@ If you don’t already have them, download and install R https://www.r-project.o
 ## Usage
 Download the R script and run it in your R Studio. Select the text file which you wanted to analyze.
  
+## Output
+In a result you will get Wordcloud of your text and sentiment score for each sentiments.
+Here, I have used this sentimental analysis on Amazon echo's customers reviews.  
