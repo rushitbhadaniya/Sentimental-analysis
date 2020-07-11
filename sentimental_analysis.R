@@ -23,6 +23,7 @@ docs
 inspect(docs)
 docs <- tm_map(docs, content_transformer(tolower))
 docs <- tm_map(docs, removeNumbers)
+docs <- tm_map(docs, removeWords, stopwords("english"))
 docs <- tm_map(docs, removeWords, c("the", "and","are","have","that","this","also","for","etc","other","off","too","its","because","list","dont","does","far","how","much","turn","using","could","from","only","day","you","our","not","she","its","get","having","purchase","but","her","when","some","been","now","out","can","they","any","some","getting","has","here","than","all","will","there","more","just","about","very","was","had","once","were","which","media","omitted","joined","who","those","your","what","them","want","used","tell","thing","with","still","would","link")) 
 docs <- tm_map(docs, removePunctuation)
 docs <- tm_map(docs, stripWhitespace)
